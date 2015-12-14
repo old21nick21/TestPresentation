@@ -1,0 +1,33 @@
+ViraRStudioPresentation
+========================================================
+author: Vira Yakusha  
+date: `r format(Sys.Date(), format="%B %y %Y")`
+transition: rotate
+
+<small>
+Vira's First try on RStudio Presenter
+</small>
+First Slide
+========================================================
+
+
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- This is a test slide
+- To learn how to post the slides
+- on the GitHub gh-pages, to see them as HTML
+
+Slide With Code
+========================================================
+
+```{r, echo=FALSE}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r }
+plot(cars)
+```
